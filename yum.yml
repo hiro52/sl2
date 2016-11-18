@@ -1,0 +1,6 @@
+- hosts: all
+
+  tasks:
+
+  - name: slCommand Yum install
+    yum: name=sl
