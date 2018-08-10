@@ -4,3 +4,4 @@
 
   - name: slCommand Yum install
     yum: name=sl
+    state: present
